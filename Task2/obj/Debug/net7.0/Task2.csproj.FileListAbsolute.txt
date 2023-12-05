@@ -1,0 +1,4 @@
+/Users/glebfrolov/Documents/Labs (7 semestr)/Lab5/Task2/obj/Debug/net7.0/Task2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/glebfrolov/Documents/Labs (7 semestr)/Lab5/Task2/obj/Debug/net7.0/Task2.AssemblyInfoInputs.cache
+/Users/glebfrolov/Documents/Labs (7 semestr)/Lab5/Task2/obj/Debug/net7.0/Task2.AssemblyInfo.cs
+/Users/glebfrolov/Documents/Labs (7 semestr)/Lab5/Task2/obj/Debug/net7.0/Task2.csproj.CoreCompileInputs.cache
