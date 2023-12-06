@@ -24,7 +24,7 @@ namespace triangle
         public override void Print()
         {
             base.Print();
-            Console.WriteLine($"; Стороны фигуры: a = {a}, b = {b}, c = {c}; Площадь = {Area()}");
+            Console.WriteLine($"Стороны фигуры: a = {a}, b = {b}, c = {c}\nПлощадь = {Area()}");
         }
         public void SetABC(double a, double b, double c)
         {

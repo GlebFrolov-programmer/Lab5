@@ -50,7 +50,7 @@ namespace book
         }
         public static void Print(Book book)
         {
-            Console.WriteLine($"Книга \"{book.Title}\"; Автор {book.Author}; Стоимость {book.Price}");
+            Console.WriteLine($"Книга \"{book.Title}\"\nАвтор {book.Author}\nСтоимость {book.Price}");
         }
     }
 }

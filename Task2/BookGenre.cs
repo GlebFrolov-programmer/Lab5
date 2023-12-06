@@ -27,7 +27,7 @@ public class BookGenre: Book
     public new void Print()
     {
         base.Print();
-        Console.WriteLine($"; Жанр книги: {this.Genre}");
+        Console.WriteLine($"Жанр книги: {this.Genre}");
     }
     public static void Print(BookGenre bookGenre)
     {

@@ -25,7 +25,7 @@ public sealed class BookGenrePubl : BookGenre
     public new void Print()
     {
         base.Print();
-        Console.WriteLine($"; Издательство: {Publisher}");
+        Console.WriteLine($"Издательство: {Publisher}");
     }
     public static void Print(BookGenrePubl bookGenrePubl)
     {
