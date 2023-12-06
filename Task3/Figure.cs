@@ -7,22 +7,22 @@ namespace figure
         {
             Name = name;
         }
-        public string? Name
+        public string Name
         {
             get
             {
-                return _name;
+                return name;
             }
             set
             {
-                _name = (value == null? string.Empty : value);
+                name = (value == null? string.Empty : value);
             }
         }
         public abstract double Area2 { get;}
         public abstract double Area();
         public virtual void Print()
         {
-            Write($"Название фигуры: {Name}");
+            Console.WriteLine($"Название фигуры: {Name}");
         }
     }
 }

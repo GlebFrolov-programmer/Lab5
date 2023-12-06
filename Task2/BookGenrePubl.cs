@@ -6,7 +6,7 @@ public sealed class BookGenrePubl : BookGenre
 {
     private string publisher; // издатель
 
-    public BookGenrePubl(string title, string genre, string author, string publisher, decimal price)
+    public BookGenrePubl(string title, string genre, string author, string publisher, float price)
         : base(title, genre, author, price)
     {
         Publisher = publisher;
@@ -25,7 +25,7 @@ public sealed class BookGenrePubl : BookGenre
     public new void Print()
     {
         base.Print();
-        Write($"; Издательство: {Publisher}");
+        Console.WriteLine($"; Издательство: {Publisher}");
     }
     public static void Print(BookGenrePubl bookGenrePubl)
     {

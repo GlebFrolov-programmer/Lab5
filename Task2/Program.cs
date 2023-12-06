@@ -4,7 +4,7 @@ using bookGenrePubl;
 
 Console.WriteLine("Class Book:");
 Book book = new("Война и мир", "Лев Толстой", 5000);
-bookBasic.Print();
+book.Print();
 Console.WriteLine();
 
 BookGenre bookGenre = new("Мертвые души", "Роман", "Николай Гоголь", 400);

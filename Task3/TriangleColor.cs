@@ -20,7 +20,7 @@ namespace triangleColor
         public override void Print()
         {
             base.Print();
-            Write($"; Цвет фигуры: {Color}");
+            Console.WriteLine($"; Цвет фигуры: {Color}");
         }
     }
 }

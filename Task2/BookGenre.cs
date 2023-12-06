@@ -6,7 +6,7 @@ public class BookGenre: Book
 {
     private string genre; // Жанр
 
-    public BookGenre(string title, string genre, string author, decimal price)
+    public BookGenre(string title, string genre, string author, float price)
         :base(title, author, price)
     {
         Genre = genre;
@@ -27,7 +27,7 @@ public class BookGenre: Book
     public new void Print()
     {
         base.Print();
-        Write($"; Жанр книги: {this.Genre}");
+        Console.WriteLine($"; Жанр книги: {this.Genre}");
     }
     public static void Print(BookGenre bookGenre)
     {
